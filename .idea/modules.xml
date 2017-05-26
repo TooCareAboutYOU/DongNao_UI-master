@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DongNao_UI-master.iml" filepath="$PROJECT_DIR$/DongNao_UI-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit1_uidrawprocess/unit1_uidrawprocess.iml" filepath="$PROJECT_DIR$/unit1_uidrawprocess/unit1_uidrawprocess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit2_uidrawprocess_flowlayout/unit2_uidrawprocess_flowlayout.iml" filepath="$PROJECT_DIR$/unit2_uidrawprocess_flowlayout/unit2_uidrawprocess_flowlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit3_paint/unit3_paint.iml" filepath="$PROJECT_DIR$/unit3_paint/unit3_paint.iml" />
+    </modules>
+  </component>
+</project>
