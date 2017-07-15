@@ -1,1 +1,1 @@
-include ':app', ':unit1_uidrawprocess', ':unit2_uidrawprocess_flowlayout', ':unit3_paint'
+include ':app', ':unit1_uidrawprocess', ':unit2_uidrawprocess_flowlayout', ':unit3_paint', ':uni4_paint_photoworks'

@@ -1,56 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
-
-    <com.dongnao.ui.master.paint.MyFlowLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
-        <TextView
-            style="@style/Base_TextStyle"
-            android:text="1243242342"/>
-
-        <TextView
-            style="@style/Base_TextStyle"
-            android:text="哈哈哈"/>
-
-        <TextView
-            style="@style/Base_TextStyle"
-            android:text="343423"/>
-
-        <TextView
-            style="@style/Base_TextStyle"
-            android:text="班干部武二哥"/>
-
-        <TextView
-            style="@style/Base_TextStyle"
-            android:text="45345"/>
-
-        <TextView
-            style="@style/Base_TextStyle"
-            android:text="6分公司当故事"/>
-
-        <TextView
-            style="@style/Base_TextStyle"
-            android:text="7"/>
-
-        <TextView
-            style="@style/Base_TextStyle"
-            android:text="843"/>
-
-        <TextView
-            style="@style/Base_TextStyle"
-            android:text="9发个地址"/>
-
-        <TextView
-            style="@style/Base_TextStyle"
-            android:text="1个人0"/>
-
-    </com.dongnao.ui.master.paint.MyFlowLayout>
+    <com.dongnao.ui.master.paint.PathDashPathView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 
-
-</LinearLayout>
+</RelativeLayout>

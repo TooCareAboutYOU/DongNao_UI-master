@@ -4,6 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_addView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="添加图片"/>
+
     <com.dongnao.ui.master.flowlayout.FlowLayoutView
         android:id="@+id/flowlayout"
         android:layout_width="fill_parent"

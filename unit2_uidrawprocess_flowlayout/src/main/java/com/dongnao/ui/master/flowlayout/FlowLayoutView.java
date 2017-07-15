@@ -14,7 +14,9 @@ import java.util.List;
 
 public class FlowLayoutView extends ViewGroup {
 
+    //保存每行view的列表
     private List<List<View>> mViewLinesList=new ArrayList<List<View>>();
+    //保存行高的列表
     private List<Integer> mLineHeights=new ArrayList<Integer>();
 
     public FlowLayoutView(Context context, AttributeSet attrs) { super(context, attrs); }
@@ -25,7 +27,7 @@ public class FlowLayoutView extends ViewGroup {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-
+        //获取父容器为FlowLayoutView设置的测量模式大小
         int iWidthMode=MeasureSpec.getMode(widthMeasureSpec);
         int iHeightMode=MeasureSpec.getMode(heightMeasureSpec);
         int iWidthSpecSize=MeasureSpec.getSize(widthMeasureSpec);
@@ -46,6 +48,7 @@ public class FlowLayoutView extends ViewGroup {
             List<View> viewList=new ArrayList<View>();
 
             for (int i = 0; i < childCount; i++) {
+
                 View childView=getChildAt(i);
                 measureChild(childView,widthMeasureSpec, heightMeasureSpec);
 
@@ -54,10 +57,12 @@ public class FlowLayoutView extends ViewGroup {
                 iChildHeight= childView.getMeasuredHeight() + layoutParams.topMargin + layoutParams.bottomMargin;
 
                 if (iCurLineW + iChildWidth > iWidthSpecSize) {
-
+                    //记录当前行的信息
+                    //1、记录当前行的最大宽度，高度累加
                     measuredWidth=Math.max(measuredWidth,iCurLineW);
                     measuredHeight += iCurLineH;
 
+                    //将当前行的viewList添加至总的mViewLinesList
                     mViewLinesList.add(viewList);
                     mLineHeights.add(iCurLineH);
 
@@ -85,8 +90,7 @@ public class FlowLayoutView extends ViewGroup {
             }
         }
 
-
-
+        //通过子View的规格大小来确定自己的大小
         setMeasuredDimension(measuredWidth,measuredHeight);
 
     }
