@@ -7,7 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/uni4_paint_photoworks/uni4_paint_photoworks.iml" filepath="$PROJECT_DIR$/uni4_paint_photoworks/uni4_paint_photoworks.iml" />
       <module fileurl="file://$PROJECT_DIR$/unit1_uidrawprocess/unit1_uidrawprocess.iml" filepath="$PROJECT_DIR$/unit1_uidrawprocess/unit1_uidrawprocess.iml" />
       <module fileurl="file://$PROJECT_DIR$/unit2_uidrawprocess_flowlayout/unit2_uidrawprocess_flowlayout.iml" filepath="$PROJECT_DIR$/unit2_uidrawprocess_flowlayout/unit2_uidrawprocess_flowlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit33-customwidget/unit33-customwidget.iml" filepath="$PROJECT_DIR$/unit33-customwidget/unit33-customwidget.iml" />
       <module fileurl="file://$PROJECT_DIR$/unit3_paint/unit3_paint.iml" filepath="$PROJECT_DIR$/unit3_paint/unit3_paint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit7_canvas/unit7_canvas.iml" filepath="$PROJECT_DIR$/unit7_canvas/unit7_canvas.iml" />
     </modules>
   </component>
 </project>

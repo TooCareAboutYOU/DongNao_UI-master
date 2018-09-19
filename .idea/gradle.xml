@@ -12,7 +12,9 @@
             <option value="$PROJECT_DIR$/uni4_paint_photoworks" />
             <option value="$PROJECT_DIR$/unit1_uidrawprocess" />
             <option value="$PROJECT_DIR$/unit2_uidrawprocess_flowlayout" />
+            <option value="$PROJECT_DIR$/unit33-customwidget" />
             <option value="$PROJECT_DIR$/unit3_paint" />
+            <option value="$PROJECT_DIR$/unit7_canvas" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

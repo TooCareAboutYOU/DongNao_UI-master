@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FourFragment"
+    android:background="@color/colorPrimary">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/ABtn_ExitFour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="第四个-退出"/>
+
+</FrameLayout>
